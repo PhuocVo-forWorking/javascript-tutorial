@@ -1,0 +1,117 @@
+body {
+
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.red {
+
+  border: 1px solid red;
+}
+
+.green {
+  border: 1px solid green;
+}
+
+.banner {
+
+
+  height: 850px;
+
+  background: url('./banner.jpg') center center no-repeat;
+
+}
+
+.about-signin {
+
+  height: 80px;
+  width: 100%;
+  text-align: right;
+
+}
+
+.about,
+.sign-in {
+  text-decoration: none;
+  margin-top: 30px;
+  padding: 10px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: solid;
+}
+
+.sign-in.red {
+  margin-left: 30px;
+  margin-right: 70px;
+  border: 1px solid green;
+  border-radius: 20px;
+}
+
+.logo {
+  background: url('./hapoERP.png') center center no-repeat;
+  margin-top: 210px;
+  margin-bottom: 80px;
+  height: 100px;
+}
+
+.btn-start-now {
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+.content-center {
+
+  /* border: 1px solid red; */
+  margin-top: 30px;
+
+}
+
+.left,
+.right,
+.center {
+
+  display: inline-block;
+  width: 20%;
+  /* text-align: center; */
+  text-align: center;
+
+}
+
+.left {
+
+  margin-left: 380px;
+}
+
+span {
+  display: block;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.text span {
+  font-family: fantasy;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+}
+
+.banner .btn-start-now button {
+  margin-top: 25px;
+  border: 1px solid green;
+  border-radius: 20px;
+  text-transform: uppercase;
+  padding: 10px 18px;
+  background-color: greenyellow;
+  text-decoration: black;
+  cursor: pointer;
+}
